@@ -14,7 +14,7 @@ describe("arrays.js", () => {
          chai.assert.strictEqual(largestNum([10, 12, 3, 2, 42]), 42, "Find and return the largesgt number within the array.")
       })
       it("returns the largest number on all arrays", () => {
-         chai.assert.strictEqual(largestNum([10, 12, 3, 2]), 10, "Find and return the largesgt number within the array.")
+         chai.assert.strictEqual(largestNum([10, 12, 3, 2]), 12, "Find and return the largesgt number within the array.")
       })
    })
    describe("3. elemsTimesLength Function", () => {
